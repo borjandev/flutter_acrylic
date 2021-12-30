@@ -406,7 +406,7 @@ public class MainFlutterWindowManipulator {
             return false
         }
         
-        return self.mainFlutterWindow!.isVisible
+        return self.mainFlutterWindow!.isMainWindow
     }
     
     public static func setWindowBackgroundColorToDefaultColor() {
